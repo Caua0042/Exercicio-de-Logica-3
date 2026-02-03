@@ -1,0 +1,22 @@
+package com.caua.nivel1;
+
+import java.util.Scanner;
+
+public class nivel1 {
+
+	public static void main(String[] args) {
+
+		Scanner in = new Scanner (System.in);
+		
+		int N = 0; int i = 0;
+		
+		System.out.print("Digite o número que deseja ver a tabuada: ");
+		N = in.nextInt();
+		
+		for (i = 1; i <= 10; ++i) {
+			
+			System.out.println(N + " x " + i + " = " + N*i );
+			
+		}
+	}
+}
